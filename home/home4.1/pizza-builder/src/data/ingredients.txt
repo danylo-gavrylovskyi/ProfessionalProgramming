@@ -1,0 +1,5 @@
+Cheese 1.50
+Tomato 0.75
+Pepperoni 2.00
+Mushroom 1.25
+Onion 0.50
