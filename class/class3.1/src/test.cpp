@@ -90,5 +90,19 @@ int main() {
         ASSERT_EQ(result, "")
     });
 
+    testSuite.addTest("StringRepeaterTest6", [](){
+        std::vector<int> v = {-1, -2, -3};
+        std::string s = "test";
+        auto result = stringRepeater(v, s);
+        ASSERT_EQ(result, "");
+    });
+
+    testSuite.addTest("StringRepeaterTest7", [](){
+        std::vector<int> v = {-1, 2, 3};
+        std::string s = "test";
+        auto result = stringRepeater(v, s);
+        ASSERT_EQ(result, "testtesttest");
+    });
+
     testSuite.run();
 }

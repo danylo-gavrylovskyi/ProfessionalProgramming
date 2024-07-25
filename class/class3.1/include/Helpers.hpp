@@ -3,6 +3,7 @@
 #include <vector>
 #include <string>
 #include <algorithm>
+#include <ranges>
 
 double dummyFunc(double x);
 
